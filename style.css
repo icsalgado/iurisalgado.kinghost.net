@@ -1,0 +1,149 @@
+body{
+    background: url("https://raw.githubusercontent.com/icsalgado/assets/master/.blackgroundbackguy.jpg") no-repeat fixed center;
+    background-size: cover;
+    color: white;
+}
+
+.flex-container{
+    display: flex; /*itens dispostos na horizontal*/
+    align-items: center; /*itens alinhados pelo centro horizontal*/
+    
+}
+header{
+    justify-content: space-between;
+    margin: 10px 100px;
+}
+
+header h1{
+    font-size: 60px;
+}
+
+
+header button{
+    border-radius: 30px;
+    padding: 0px 15px;
+    margin: 0px 10px;
+    background-color: rgba(41, 39, 39, 0.857);
+    direction: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+header img{
+    width: 40px;
+    padding: 10px;
+}
+
+main{
+    background-color: rgba(97, 96, 96, 0.552);
+    border-radius: 20px;
+    margin: 0px 5%;
+}
+main h2{
+    font-size: 40px;
+}
+main h3{
+    font-size: 20px;
+}
+main p{
+    font-size: 20px;
+}
+
+.mainImg{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.mainImg img{
+    border-radius: 55%;
+    width: 200px;
+    opacity: 0.8;
+    margin-top: -100px;
+    margin-bottom: 10%;
+}
+
+.data{
+    width: 33%;
+    text-align: left;
+}
+
+.projects{
+    text-align: center;
+    margin: 10px;
+}
+.item{
+    background-color: rgba(109, 109, 143, 0.61);
+    border-radius: 20px;
+    width: 100%;
+}
+.item h3{
+    padding: 5%;
+}
+.item p{
+    text-align: center;
+    margin: 10%;
+}
+
+.technologies{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+.technologies img{
+    max-width: 40px;
+    padding: 5px;
+}
+
+.info{
+    margin: 0px 10px;
+}
+.info h2{
+    text-align: center;
+}
+
+.xp{
+    display: flex;
+}
+.form{
+    display: flex;
+}
+
+.xp h2{
+    text-align: center;
+}
+
+.box{
+    margin: 10px;
+    background-color: rgba(168, 216, 138, 0.134);
+    border-radius: 20px;
+    width: 100%;
+}
+
+.box img{
+    max-width: 200px;
+    padding: 10px 0px 0px 10px;
+}
+.ihp{
+    width: 100px;
+}
+.box h3{
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+.box p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 15;
+}
+
+.form h2{
+    text-align: center;
+}
+
+footer{
+    bottom: 10px;
+    left: 45%;
+    text-align: center;
+}
